@@ -47,7 +47,7 @@ export interface ThemeableBrowserOptions {
   disableAnimation?: boolean;
 
   // inAppBrowser options
-  location?: boolean;
+  location?:  boolean;
   hidden?: string;
   clearcache?: string;
   clearsessioncache?: string;
